@@ -1,7 +1,3 @@
-/**
- * spring cloud config server
- * @author lzhoumail@126.com 
- */
 package cloud.config.server;
 
 import org.springframework.boot.SpringApplication;
@@ -18,5 +14,6 @@ public class ConfigServerApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ConfigServerApplication.class, args);
+        System.out.println("dd");
     }
 }
